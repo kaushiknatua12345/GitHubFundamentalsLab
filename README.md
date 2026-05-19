@@ -1,20 +1,21 @@
 # GitHub Fundamentals Lab
 
-Start here for the non-technical training exercises.
+This repository contains a sample Angular employee registration app and the supporting workshop materials.
 
-## Training guide
+## What’s included
 
-Open [.ai-workflows/copilot-training-exercises.md](.ai-workflows/copilot-training-exercises.md) for the practice work.
+- `front end app/`: the Angular app for registering employees during the current session.
+- `UserDocuments/copilot-training-exercises.md`: the workshop guide with the practice exercises.
+- `ProjectPlanning/`: space for planning documents.
+- `FrontEndApp/`: a placeholder folder for related front-end work.
 
-## What participants should do
+## Working with the sample app
 
-- Use Ask mode to understand the front end app
-- Use agent to run the front end app
-- Use Plan mode to organize a small project plan
-- Use Agent mode to create user and technical documentation
-- Practice standard GitHub work such as branches and merges
+- Open `front end app/` in VS Code.
+- Run `npm install` and then `npm start` from inside `front end app/`.
+- The app validates new employee records and keeps them in memory only while the app is open.
 
-## Workflow files
+## Training exercises
 
-The reusable AI workflow files are in [.ai-workflows](.ai-workflows/README.md).
+Open [UserDocuments/copilot-training-exercises.md](UserDocuments/copilot-training-exercises.md) for the workshop steps and examples.
 
